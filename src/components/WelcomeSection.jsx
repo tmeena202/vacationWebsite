@@ -3,12 +3,14 @@ import { Menu, Heart, ShieldCheck, Star } from "lucide-react";
 export default function WelcomeSection() {
   return (
     <div className="w-full min-h-screen bg-[#fdfcfb] px-10 py-8">
-      {/* Navbar */}
-      <nav className="flex items-center justify-between">
-        {/* Title */}
-        <h1 className="text-5xl font-serif font-medium text-gray-800">
-          Welcome to Pace Vacation Rentals
-        </h1>
+      <nav className="flex items-center justify-center">
+        <div className="text-center flex flex-col items-center">
+          <p>About your host</p>
+
+          <h1 className="text-5xl font-serif font-medium text-gray-800">
+            Welcome to Pace Vacation Rentals
+          </h1>
+        </div>
       </nav>
 
       {/* Main Content */}
